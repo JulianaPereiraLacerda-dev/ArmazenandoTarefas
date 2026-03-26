@@ -48,3 +48,22 @@ h1{
     background-color: #0096c7;
     color: black;
 }
+
+.botao-remover{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#lista-tarefas li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#lista-tarefas{
+    padding: 0;
+}
